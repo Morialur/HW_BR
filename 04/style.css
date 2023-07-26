@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+h2 {
+    text-align: center;
+    color: #000000;
+}
+label, button {
+    display: block;
+    margin: 5px 0;
+}
+.container {
+    width: 51%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстраційна форма</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Реєстраційна форма</h2>
+
+        </header>
+
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="GET" id="main-form" enctype="multipart/form-data">
+            <input type="hidden" name="hidden-field" value="9idn3j">
+
+            <!-- TEXT inputs -->
+            <label for="client-name">Повне ім'я:</label>
+            <input type="text" name="client-name" id="client-name" value="" maxlength="20" required>
+
+            <label for="client-email">Email:</label>
+            <input type="email" name="client-email" id="client-email" value="" required>
+
+            <label for="client-phone">Номер телефону:</label>
+            <input type="tel" name="client-phone" id="client-phone" value="" required>
+
+            <label for="client-password">Пароль:</label>
+            <input type="password" name="client-password" id="client-password" value="" required>
+
+            <label for="password2">Підтвердження паролю:</label>
+            <input type="password" name="password2" id="password2" value="" required>
+
+            <!-- SELECT -->
+            <p>Стать:</p>
+            <div class="gender-inputs">
+                <label for="male">Чоловіча</label>
+                <input type="radio" name="gender" id="male" value="male">
+
+                <label for="female">Жіноча</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+
+            <label for="client-quantity">Вік:</label>
+            <input type="number" name="client-quantity" id="client-quantity" value="" max="100" min="1" required>
+
+            <label for="Cource-type">Курс:</label>
+            <select name="Cource-type" id="Cource-type" required>
+                <option value="" selected disabled>Виберіть курс</option>
+                <option value="Project Managment">Project Managment</option>
+                <option value="UI/UX дизайн">UI/UX дизайн</option>
+                <option value="HR">HR</option>
+            </select>
+
+            <!-- TEXTAREA -->
+            <label for="Client-address">Повна адреса:</label>
+            <textarea id="Client-address" name="Client-address" cols="30" rows="10" style="color: gray;">Країна, регіон, місто, вулиця</textarea>
+
+            <label for="client-motivation">Оцініть ваш рівень мотивації навчатись:</label>
+            <input type="range" name="client-motivation" id="client-motivation" value="5" max="10" min="1">
+
+            <label>
+                <input type="checkbox" name="PAG" value="yes" required>
+                Я погоджуюсь з обробкою персональних даних
+            </label>
+
+            
+            <!-- FILE -->
+            <label for="user-file">Фото домашнього улюбленця:</label>
+            <input type="file" name="user-file" id="user-file">
+
+            <!-- SUBMIT -->
+            <button type="submit" id="submit">Зареєструватись</button>
+
+            <input type="reset" value="Очистити форму">
+        </form>
+    </div>
+</body>
+</html>
