@@ -96,6 +96,7 @@
 .skill_item {
     text-align: center;
     width: 170px;
+    max-width: 100%;
     display: inline-block;
     vertical-align: top;
     margin-right: 96px;
