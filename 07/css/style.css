@@ -34,7 +34,7 @@ background-color: fff;
 }
 
 .grid{
-    width: 1170px;
+    width: 1070px;
     margin: 0px auto;
 }
 
@@ -44,6 +44,9 @@ background-color: fff;
     display: inline-block;
     color: #fff;
     border: 0px solid;
+}
+
+.grid div {
     font-size: 22px;
 }
 
@@ -166,3 +169,6 @@ p {
     padding: 10px;
     box-shadow: 0 0 0 2px #fff inset;
   }
+
+
+
