@@ -48,55 +48,91 @@ background-color: fff;
 }
 
 div:nth-child(1) {
-    background-color: #39C;
+    background-color: rgb(51, 153, 204, 0.7);
+}
+
+div:nth-child(1):hover {
+    background-color: rgb(51, 153, 204, 1);
 }
 
 div:nth-child(2) {
-    background-color: #3CC;
+    background-color: rgba(51, 204, 204, .7);
+}
+
+div:nth-child(2):hover {
+    background-color: rgb(51, 204, 204, 1);
 }
 
 div:nth-child(3) {
-    background-color: #969;
+    background-color: rgba(153, 102, 153, .7);
+}
+
+div:nth-child(3):hover {
+    background-color: rgb(153, 102, 153, 1);
 }
 
 div:nth-child(4) {
-    background-color: #C24747;
+    background-color: rgba(194, 71, 71, .7);
+}
+
+div:nth-child(4):hover {
+    background-color: rgb(194, 71, 71, 1);
 }
 
 div:nth-child(5) {
-    background-color: #e2674a;
+    background-color: rgba(226, 103, 74, .7);
+}
+
+div:nth-child(5):hover {
+    background-color: rgb(226, 103, 74, 1);
 }
 
 div:nth-child(6) {
-    background-color: #FC6;
+    background-color: rgba(255, 204, 102, .7);
+}
+
+div:nth-child(6):hover {
+    background-color: rgb(255, 204, 102, 1);
 }
 
 div:nth-child(7) {
-    background-color: #9C9;
+    background-color: rgba(153, 204, 153, .7);
+}
+
+div:nth-child(7):hover {
+    background-color: rgb(153, 204, 153, 1);
 }
 
 div:nth-child(8) {
-    background-color: #699;
+    background-color: rgba(102, 153, 153, .7);
+}
+
+div:nth-child(8):hover {
+    background-color: rgb(102, 153, 153, 1);
 }
 
 div:nth-child(9) {
-    background-color: #C69;
+    background-color: rgba(204, 102, 153, .7);
+}
+
+div:nth-child(9):hover {
+    background-color: rgb(204, 102, 153, 1);
 }
 
 div:nth-child(10) {
-    background-color: #339966;
+    background-color: rgba(51, 153, 102, .7);
+}
+
+div:nth-child(10):hover {
+    background-color: rgb(51, 153, 102, 1);
 }
 
 div:nth-child(11) {
-    background-color: #669;
+    background-color: rgba(102, 102, 153, .7);
 }
 
-div {
-    opacity: 0.7;
-}
-
-div:hover {
-    opacity: 1;
+div:nth-child(11):hover {
+    background-color: rgb(102, 102, 153, 1);
 }
 
 .temp{
