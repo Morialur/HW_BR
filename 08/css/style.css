@@ -12,7 +12,7 @@ header {
     justify-content: center;
 }
 
-.nav_wrapper {
+.nav {
     width: 100%;
     max-width: 1200px;
     display: flex;
@@ -21,7 +21,7 @@ header {
     font-size: 0;
 }
 
-.logo_wrapper {
+.logo {
     display: flex;
     justify-content: start;
     width: 200px;
@@ -40,7 +40,7 @@ header {
     flex-wrap: wrap;
 }
 
-.buttons_wrapper {
+.buttons {
     display: flex;
     justify-content: end;
     gap: 32px;
@@ -69,7 +69,7 @@ nav button {
     color: #fff;
 }
 
-.FS_section {
+.fs {
     padding: 70px 120px 100px;
     max-width: 1200px;
     margin: 0 auto;
@@ -78,18 +78,19 @@ nav button {
 .checkmark {
     padding-top: 15px;
 }
-.FS_container {
+
+.fs_content {
     display: flex;
     justify-content: space-between;
 }
 
-.FS_left_part {
+.fs_left {
     max-width: 500px;
     width: 50%;
     padding: 100px 0px;
 }
 
-.FS_title {
+.fs_title {
     color: #2f281e;
     font-size: 44px;
     font-weight: 700;
@@ -97,14 +98,14 @@ nav button {
     line-height: 122.727%;
 }
 
-.FS_left_part p {
+.fs_left p {
     color: #544837;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
 }
 
-.FS_left_part button {
+.fs_left button {
     margin-top: 20px;
     width: 180px;
     height: 50px;
@@ -118,7 +119,7 @@ nav button {
     font-weight: 700;
 }
 
-.FS_right_part {
+.fs_right {
     width: 50%;
 }
 
@@ -136,7 +137,7 @@ nav button {
     margin: 0 auto;
 }
 
-.BG {
+.bg {
     background-image: url(../img/about-bg.svg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -300,13 +301,13 @@ footer {
     justify-content: space-between;
 }
 
-.QL_item,
+.ql_item,
 .stuff_item {
     max-width: 135px;
 }
 
-.footer_QL,
-.footer_stuff {
+.footer_ql,
+.footer_items {
     margin-bottom: 30px;
     color: #2f281e;
     font-size: 20px;
@@ -327,6 +328,7 @@ footer {
 
 .last_item_title {
     margin-bottom: 25px;
+    font-size: 20px;
 }
 
 .last_sub_list {
