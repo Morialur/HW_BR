@@ -1,6 +1,5 @@
 html,
 body {
-    width: 100vw;
     font-family: "Montserrat", sans-serif;
     height: 100vh;
 }
@@ -124,7 +123,7 @@ nav button {
 }
 
 .about_section {
-    padding: 100px 0;
+    padding: 100px 0px;
     text-align: center;
 }
 
@@ -135,7 +134,10 @@ nav button {
     font-size: 36px;
     font-weight: 700;
     margin: 0 auto;
+
 }
+
+
 
 .bg {
     background-image: url(../img/about-bg.svg);
